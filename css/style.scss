@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h1, h2, h3, h4 {
+    font-family: fantasy;
+    text-align: center;
+}
+
+img { 
+    width: 25%;
+}
+
+#title {
+    margin: 3vh 0;
+}
+#selcetion-container {
+    width: 100%;
+    margin-left: 2.5%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 3fr));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.selection:hover {
+    cursor: pointer;
+}
+
